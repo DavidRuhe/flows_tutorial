@@ -19,3 +19,4 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 export PYTHONPATH=$DIR/src
 export JUPYTER_PATH=$DIR/src
 cd $DIR/src
+jupyter notebook --no-browser --port 8888
